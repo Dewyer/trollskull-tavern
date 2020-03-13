@@ -1,13 +1,9 @@
 mod utils;
 mod hengine;
 mod document;
-
+extern crate web_sys;
+extern crate wasm_bindgen;
 use wasm_bindgen::prelude::*;
-
-// When the `wee_alloc` feature is enabled, use `wee_alloc` as the global
-#[cfg(feature = "wee_alloc")]
-#[global_allocator]
-static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
 #[wasm_bindgen(start)]
 pub fn run() -> Result<(), JsValue> {
@@ -19,6 +15,8 @@ pub fn run() -> Result<(), JsValue> {
     // Manufacture the element we're gonna append
     let val = document.create_element("p")?;
     val.set_inner_html("fasz");
+
+	web_sys::console::log_1(&"geci".into());
 
 	body.append_child(&val)?;
 

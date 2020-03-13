@@ -4,14 +4,14 @@ const webpack = require("webpack");
 const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
 
 module.exports = {
-  entry: "./index.js",
+  entry: "./html//index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "index.js"
+    filename: "html/index.js"
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "index.html"
+      template: "html/index.html"
     }),
     new WasmPackPlugin({
       crateDirectory: path.resolve(__dirname, ".")

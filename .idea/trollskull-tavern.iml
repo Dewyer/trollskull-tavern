@@ -12,6 +12,11 @@
       <sourceFolder url="file://$MODULE_DIR$/target/debug/build/wasm-bindgen-shared-e50215726879052c/out" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/debug/build/syn-ea94fb492e475f35/out" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/debug/build/log-72c651bee3c5c169/out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/debug/build/wasm-bindgen-2b1e9921b32240c5/out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/debug/build/proc-macro2-1e0d50e89e25aeed/out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/debug/build/wasm-bindgen-shared-c40f160a3d1f2a12/out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/debug/build/syn-a1225df680247288/out" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/target/debug/build/log-51f6a74034f0bdb2/out" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -1,7 +1,7 @@
 {
 	"name": "trollskull-tavern",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "html/index.js",
 	"author": "Barna Rátki <barna.ratki@gmail.com>",
 	"license": "MIT",
 	"scripts": {
